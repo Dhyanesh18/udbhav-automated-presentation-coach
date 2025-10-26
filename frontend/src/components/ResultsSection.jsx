@@ -2,6 +2,7 @@ import { Award, MessageSquare, TrendingUp, Clock } from 'lucide-react';
 import MetricCard from './MetricCard';
 import PaceChart from './PaceChart';
 import FillerWords from './FillerWords';
+import AIFeedback from './AIFeedback';
 import TranscriptSection from './TranscriptSection';
 
 export default function ResultsSection({ results }) {
