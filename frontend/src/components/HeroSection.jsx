@@ -3,7 +3,7 @@ import FeatureBadge from './FeatureBadge';
 
 export default function HeroSection() {
     return (
-        <section className="relative px-4 pt-20 pb-32 text-center">
+        <section className="relative px-4 pt-18 pb-20 text-center">
         {/* Animated background blobs */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
             <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-500/20 rounded-full blur-3xl animate-pulse"></div>
@@ -12,8 +12,8 @@ export default function HeroSection() {
         </div>
 
         <div className="max-w-5xl mx-auto relative z-10">
-            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-4 py-2 mb-8 mt-20 animate-fade-in">
-            <Sparkles className="w-4 h-4 text-yellow-300" />
+            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-4 py-2 mb-8  animate-fade-in">
+            <Sparkles className="w-4 h-4 text-violet-300" />
             <span className="text-sm font-medium">AI-Powered Speech Analysis</span>
             </div>
 

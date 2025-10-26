@@ -15,9 +15,8 @@ export default function ResultsSection({ results }) {
             <MetricCard icon={<TrendingUp />} title="Speaking Pace" value={`${results.words_per_minute}`} subtitle={`${results.pace_feedback} (WPM)`} color="green" />
             <MetricCard icon={<Clock />} title="Long Pauses" value={results.long_pauses.length} subtitle="Strategic breaks" color="yellow" />
         </div>
-
-        <PaceChart segments={results.pacing_segments} />
         <FillerWords fillerWords={results.filler_words} />
+        <PaceChart segments={results.pacing_segments} />
         <AIFeedback feedback={results.ai_feedback} />
         <TranscriptSection transcript={results.transcript} duration={results.duration} />
         </div>

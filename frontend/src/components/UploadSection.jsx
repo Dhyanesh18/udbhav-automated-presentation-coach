@@ -2,7 +2,7 @@ import { Upload, Loader2, Zap, AlertCircle } from 'lucide-react';
 
 export default function UploadSection({ file, loading, error, handleFileChange, handleUpload }) {
     return (
-        <div className="max-w-6xl mx-auto px-4 -mt-16 relative z-20 mb-16">
+        <div className="max-w-6xl mx-auto px-4 relative z-20 mb-16">
         <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-8 shadow-2xl text-center">
             <h2 className="text-3xl font-bold mb-3 bg-linear-to-r from-white to-purple-200 bg-clip-text text-transparent">
             Upload Your Audio
@@ -36,7 +36,7 @@ export default function UploadSection({ file, loading, error, handleFileChange, 
             <button
             onClick={handleUpload}
             disabled={loading || !file}
-            className="group relative mt-6 px-8 py-4 bg-linear-to-r from-purple-600 to-blue-600 rounded-xl font-semibold text-white disabled:opacity-50 transition-all hover:shadow-xl hover:scale-105"
+            className="group relative mt-6 px-8 py-4 bg-linear-to-r from-purple-600 to-violet-600 shadow-xl rounded-xl font-semibold text-white disabled:opacity-50 transition-all hover:shadow-2xl hover:scale-105"
             >
             {loading ? (
                 <div className="flex items-center gap-3">
