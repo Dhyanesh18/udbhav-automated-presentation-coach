@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+python-mutlipart
+groq
+deepgram-sdk
+python-dotenv
